@@ -23,3 +23,5 @@ We then use shell scripting to host a website using apache
     EOF
 
 We create an aws_eip that makes an elastic IP and associated it to the EC2 instance and tagged it accordingly.
+
+We use cloudfront using an s3 bucket with GET and HEAD to make the static content read-only.
